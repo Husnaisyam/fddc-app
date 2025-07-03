@@ -20,15 +20,19 @@ This mobile-based application uses AI to detect food from images and calculate c
 1. Clone the repo:
    ```bash
    git clone https://github.com/Husnaisyam/fddc-app.git
+   
 2. Install Flutter and dependencies:
   ```bash
    flutter pub get
+
 3. Go to the backend folder and install Flask:
   ```bash
   pip install flask
+
 4. Run the Flask server:
   ```bash
    python server.py
+
 5. Run the Flutter app:
   ```bash
   cd food_classifier_app

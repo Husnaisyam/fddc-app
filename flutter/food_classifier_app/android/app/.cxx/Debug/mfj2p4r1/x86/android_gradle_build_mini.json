@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/shafiq/Documents/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/shafiq/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Volumes/SSD 980 PRO 1/ai-algorithm-food/flutter/food_classifier_app/android/app/.cxx/Debug/mfj2p4r1/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/shafiq/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Volumes/SSD 980 PRO 1/ai-algorithm-food/flutter/food_classifier_app/android/app/.cxx/Debug/mfj2p4r1/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

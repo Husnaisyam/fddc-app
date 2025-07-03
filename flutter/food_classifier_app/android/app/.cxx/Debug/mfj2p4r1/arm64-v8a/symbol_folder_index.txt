@@ -1,0 +1,1 @@
+/Volumes/SSD 980 PRO 1/ai-algorithm-food/flutter/food_classifier_app/build/app/intermediates/cxx/Debug/mfj2p4r1/obj/arm64-v8a

@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/shafiq/Documents/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/shafiq/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/shafiq/Desktop/ai-algorithm-food/flutter/food_classifier_app/android/app/.cxx/Debug/3j05c2i2/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/shafiq/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/shafiq/Desktop/ai-algorithm-food/flutter/food_classifier_app/android/app/.cxx/Debug/3j05c2i2/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

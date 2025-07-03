@@ -1,0 +1,2 @@
+/Users/shafiq/Desktop/ai-algorithm-food/flutter/food_classifier_app/android/app/.cxx/Debug/3j05c2i2/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/shafiq/Desktop/ai-algorithm-food/flutter/food_classifier_app/android/app/.cxx/Debug/3j05c2i2/arm64-v8a/CMakeFiles/rebuild_cache.dir

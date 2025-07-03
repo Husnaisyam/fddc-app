@@ -1,0 +1,1 @@
+/Users/shafiq/Desktop/ai-algorithm-food/flutter/food_classifier_app/build/app/intermediates/cxx/Debug/3j05c2i2/obj/x86_64

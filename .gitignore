@@ -1,3 +1,20 @@
-venv/ 
-__pycache__/ 
-*.pyc 
+# Ignore virtual environments
+venv*/
+venv_*/
+
+# Ignore Python cache and logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Ignore environment/config files
+.env
+*.db
+*.sqlite3
+
+# Ignore system files
+.DS_Store
+
+# Ignore Python package metadata
+*.egg-info/
+

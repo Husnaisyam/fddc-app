@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Android Emulator",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=IS_EMULATOR=true",
+                "--dart-define=SERVER_IP=192.168.0.14"
+            ]
+        },
+        {
+            "name": "Android Physical",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=IS_EMULATOR=false",
+                "--dart-define=SERVER_IP=192.168.0.14"
+            ]
+        }
+    ]
+}

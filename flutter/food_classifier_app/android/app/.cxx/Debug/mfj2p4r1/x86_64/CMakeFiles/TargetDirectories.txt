@@ -1,0 +1,2 @@
+/Volumes/SSD 980 PRO 1/ai-algorithm-food/flutter/food_classifier_app/android/app/.cxx/Debug/mfj2p4r1/x86_64/CMakeFiles/edit_cache.dir
+/Volumes/SSD 980 PRO 1/ai-algorithm-food/flutter/food_classifier_app/android/app/.cxx/Debug/mfj2p4r1/x86_64/CMakeFiles/rebuild_cache.dir

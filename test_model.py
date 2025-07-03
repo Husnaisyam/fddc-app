@@ -9,10 +9,10 @@ from tensorflow.keras.preprocessing import image
 model = tf.keras.models.load_model("food_classification_model.keras")
 
 # Define food labels (update this with your dataset classes)
-class_labels = ["Cendol", "Ketupat", "Laksa", "Nasi Lemak"]  # Change this to match your dataset
+class_labels = ["Cendol", "Ketupat", "Laksa", "Nasi Ayam", "Nasi Lemak"]  # Change this to match your dataset
 
 # Load an image from your local directory
-img_path = "test_image/laksa.jpeg"  # Ensure this path is correct
+img_path = "test_image/food_image.jpeg"  # Ensure this path is correct
 img = image.load_img(img_path, target_size=(224, 224))  # Resize to match model input size
 
 # Convert image to array
@@ -29,6 +29,12 @@ confidence = np.max(predictions) * 100  # Get confidence score
 
 # Print the results
 print(f"Predicted food: {food_name} with {confidence:.2f}% confidence")
+
+# Print all probabilities for better understanding
+for i, label in enumerate(class_labels):
+    print(f"{label}: {predictions[0][i] * 100:.2f}%")
+
+print(f"\n🍽️ Predicted Food: {food_name} with {confidence:.2f}% confidence")
 
 predictions = model.predict(img_array)
 

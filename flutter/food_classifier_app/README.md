@@ -6,7 +6,7 @@ A Flutter application that uses your trained food classification model to predic
 
 - Real-time food classification using the device camera
 - Display of confidence scores for multiple food categories
-- Support for both iOS and Android platforms
+- Support for Android platforms
 - Optimized camera integration with permission handling
 
 ## Getting Started
@@ -58,15 +58,6 @@ with open('food_model.tflite', 'wb') as f:
 3. Place both files in the `assets/models/` directory
 4. Update the `INPUT_SIZE` constant in `lib/models/classifier.dart` if your model requires a different input size than 224x224
 
-### Development Mode
-
-If you run the app without a real model, it will operate in development mode with simulated predictions for the following food categories:
-- apple
-- banana
-- burger
-- pizza
-- salad
-- sushi
 
 ## Project Structure
 
@@ -87,8 +78,6 @@ If you run the app without a real model, it will operate in development mode wit
 
 - If camera preview doesn't appear, check that permissions are properly granted
 - If classification results are incorrect, verify that the model and labels are properly formatted
-- For iOS deployment issues, ensure the Info.plist contains all required permission descriptions
 
-## License
 
-This project is licensed under the MIT License
+

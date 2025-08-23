@@ -29,11 +29,12 @@ This mobile-based application uses AI to detect food from images and calculate c
    ```bash
    pip install flask
 
-4. Run the Flask server:
+4. Change ip address in api_service.dart to your network ip address.
+5. Run the Flask server:
    ```bash
    python server.py
 
-5. Run the Flutter app:
+6. Run the Flutter app:
    ```bash
    cd food_classifier_app
    flutter run
